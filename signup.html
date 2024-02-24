@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup page</title>
+    <link rel="stylesheet" href="style.css">
+ <!-- font link -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Arapey:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+     <!-- micro5 font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+     <!-- anton font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div id="div-beauty">
+   <div id="logo1">
+    <img src="resources/odin-lined.png" alt="odin image">
+    <span>ODIN</span>
+   </div>
+ <span><a href="https://unsplash.com/@miekelauren" target="_blank">Image by Mieke Campbell on Unsplash</a> </span>
+</div>
+
+
+ <div id="div-form">
+    <p id="intro-para">Let's add some text here to make it look cool. Although I can't think of some professional looking text right now, and i haven't decided the purpose of this form and this mini-project yet, the actual purpose for now is just to practice so I can apply it to create something productive in the future. Maybe i will modify the contents of this page to make it look good but for now, i am keeping it like this only. </p>
+    <form id="form1">
+        <fieldset>
+            
+        <ul id="form-list">
+            <h2>Create an account!</h2>
+            <li id="name">
+                <div class="form-val">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="form-val">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+
+            </li>
+            <li id="contact">
+                <div class="form-val">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-val">
+                    <label for="phone">PHONE</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+            </li>
+            <li id="password">
+                <div class="form-val">
+                    <label for="enter-pwd" >
+                        ENTER PASSWORD
+                    </label>
+                    <input type="password" name="enter-pwd" id="enter-pwd" class="error" required>
+                </div>
+                <div class="form-val">
+                    <label for="conf-pwd">
+                        CONFIRM PASSWORD
+                    </label>
+                    <input type="password" name="conf-pwd" id="conf-pwd" class="error" required>
+                </div>
+            </li>
+        </ul>
+        </fieldset>
+            <button type="submit">Create Account</button>
+    </form>
+    <p id="login">Already have an account? <a href="#">Login</a></p>
+ </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
